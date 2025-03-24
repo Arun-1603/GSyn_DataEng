@@ -198,7 +198,7 @@
 						"folderPath": "input",
 						"fileSystem": "rawdata"
 					},
-					"columnDelimiter": ",",
+					"columnDelimiter": "|",
 					"escapeChar": "\\",
 					"firstRowAsHeader": true,
 					"quoteChar": "\""
