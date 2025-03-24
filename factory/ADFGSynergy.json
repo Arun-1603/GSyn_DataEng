@@ -1,0 +1,9 @@
+{
+	"name": "ADFGSynergy",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7db58758-73ca-442f-ae47-0c6c0ea868e4",
+		"tenantId": "88ca1b71-08e6-4a4d-9b6b-129c9fa2768f"
+	}
+}
