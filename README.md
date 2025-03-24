@@ -1,6 +1,8 @@
 # Project README
 
-Note: Step by Step implementation starts from 11th point
+Note:
+
+		A new folder Snapshots has been added to showcase project-related images, including proofs of work with Azure Data Factory (ADF), Azure Data Lake Storage (ADLS), SQL Server (SQLDB), Power BI, and GitHub repository structures.
 
 1. Project Overview:
 
