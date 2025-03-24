@@ -7,6 +7,7 @@ Note: Step by Step implementation starts from 11th point
 		This project is designed to process, transform, and aggregate transaction data efficiently using Azure Data Factory (ADF), Azure Data Lake Storage Gen2 (ADLS Gen2), and SQL Server. The final output is used for reporting in Power BI. The implementation ensures optimized data processing by handling duplicates, normalization, and incremental loading.
 
 2. Project Structure:
+
 		The repository contains the following folders:
 		Azure Data Factory: Contains ADF pipeline configurations, linked services, datasets, and activities used for data movement and transformation.
 		ER & DataFlow Architecture Diagrams: Includes Entity-Relationship (ER) diagrams and Data Flow Architecture diagrams for better understanding of the project structure.
