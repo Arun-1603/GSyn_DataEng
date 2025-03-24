@@ -82,20 +82,6 @@
 								},
 								"enableStaging": false,
 								"enableSkipIncompatibleRow": true,
-								"logSettings": {
-									"enableCopyActivityLog": true,
-									"copyActivityLogSettings": {
-										"logLevel": "Warning",
-										"enableReliableLogging": false
-									},
-									"logLocationSettings": {
-										"linkedServiceName": {
-											"referenceName": "LS_Gen2",
-											"type": "LinkedServiceReference"
-										},
-										"path": "rawdata/logs"
-									}
-								},
 								"translator": {
 									"type": "TabularTranslator",
 									"typeConversion": true,
