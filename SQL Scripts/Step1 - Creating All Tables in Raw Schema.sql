@@ -1,4 +1,4 @@
--- Ensure refined schema exists
+-- Ensure raw schema exists
 IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'raw')  
 BEGIN  
     EXEC('CREATE SCHEMA raw');  
