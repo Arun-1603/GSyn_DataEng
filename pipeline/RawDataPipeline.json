@@ -119,33 +119,6 @@
 						}
 					]
 				}
-			},
-			{
-				"name": "SP For Incremental Loading for mview_weekly_sales",
-				"type": "SqlServerStoredProcedure",
-				"dependsOn": [
-					{
-						"activity": "ForEach File",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"policy": {
-					"timeout": "0.12:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"storedProcedureName": "[dbo].[sp_incremental_load_mview_weekly_sales]"
-				},
-				"linkedServiceName": {
-					"referenceName": "LS_SQLDB",
-					"type": "LinkedServiceReference"
-				}
 			}
 		],
 		"annotations": [],
