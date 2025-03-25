@@ -1,3 +1,9 @@
+-- Ensure staging schema exists
+IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'staging')  
+BEGIN  
+    EXEC('CREATE SCHEMA staging');  
+END;
+
 ---Create staging.fact_transactions_cleaned (Optimized Table with Primary Key & Indexing)
 CREATE TABLE staging.fact_transactions_cleaned(
     order_id BIGINT,
