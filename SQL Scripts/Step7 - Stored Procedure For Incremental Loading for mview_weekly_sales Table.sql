@@ -1,4 +1,4 @@
-CREATE PROCEDURE sp_incremental_load_mview_weekly_sales
+CREATE PROCEDURE refined.sp_incremental_load_mview_weekly_sales
 AS
 BEGIN
     SET NOCOUNT ON;
