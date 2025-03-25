@@ -4,6 +4,24 @@
 	"parameters": {
 		"factoryName": {
 			"value": "ADFGSynergy"
+		},
+		"LS_Gen2_accountKey": {
+			"value": ""
+		},
+		"LS_SQLDB_password": {
+			"value": ""
+		},
+		"LS_Gen2_properties_typeProperties_url": {
+			"value": "https://adlsgengsynergy.dfs.core.windows.net/"
+		},
+		"LS_SQLDB_properties_typeProperties_server": {
+			"value": "gsynergyserver.database.windows.net"
+		},
+		"LS_SQLDB_properties_typeProperties_database": {
+			"value": "GSynergyDB"
+		},
+		"LS_SQLDB_properties_typeProperties_userName": {
+			"value": "arun"
 		}
 	}
 }

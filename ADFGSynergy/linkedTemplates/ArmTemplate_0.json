@@ -299,43 +299,16 @@
 								}
 							]
 						}
-					},
-					{
-						"name": "SP For Incremental Loading for mview_weekly_sales",
-						"type": "SqlServerStoredProcedure",
-						"dependsOn": [
-							{
-								"activity": "ForEach File",
-								"dependencyConditions": [
-									"Succeeded"
-								]
-							}
-						],
-						"policy": {
-							"timeout": "0.12:00:00",
-							"retry": 0,
-							"retryIntervalInSeconds": 30,
-							"secureOutput": false,
-							"secureInput": false
-						},
-						"userProperties": [],
-						"typeProperties": {
-							"storedProcedureName": "[[dbo].[sp_incremental_load_mview_weekly_sales]"
-						},
-						"linkedServiceName": {
-							"referenceName": "LS_SQLDB",
-							"type": "LinkedServiceReference"
-						}
 					}
 				],
 				"policy": {
 					"elapsedTimeMetric": {}
 				},
-				"annotations": []
+				"annotations": [],
+				"lastPublishTime": "2025-03-24T17:39:22Z"
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/DS_Metadata')]",
-				"[concat(variables('factoryId'), '/linkedServices/LS_SQLDB')]",
 				"[concat(variables('factoryId'), '/datasets/DS_Gen2_Input')]",
 				"[concat(variables('factoryId'), '/datasets/DS_SQLDB_Output')]"
 			]
